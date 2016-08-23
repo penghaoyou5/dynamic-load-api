@@ -1,0 +1,7 @@
+一定要说的是插件化的 
+    compileSdkVersion 19
+    buildToolsVersion "19.1.0"
+不能改为
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+如果是这样在loadClass的时候会出现ClassNotFoundException
